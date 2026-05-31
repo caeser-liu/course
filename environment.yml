@@ -1,0 +1,21 @@
+name: wafer
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - pillow
+  - matplotlib
+  - scikit-learn
+  - scipy
+  - tqdm
+  - pip:
+      - kaggle
+      # Install a CUDA or CPU build of PyTorch after creating the environment.
+      # CUDA example:
+      #   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+      # CPU example:
+      #   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu

@@ -1,0 +1,2 @@
+https://www.kaggle.com/datasets/qingyi/wm811k-wafer-map
+下载zip后解压放在这里就行

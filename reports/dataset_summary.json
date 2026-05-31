@@ -1,0 +1,135 @@
+{
+    "dataset_dir": "dataset",
+    "class_names": {
+        "0": "Center",
+        "1": "Donut",
+        "2": "Edge-Loc",
+        "3": "Edge-Ring",
+        "4": "Loc",
+        "5": "Random",
+        "6": "Scratch",
+        "7": "Near-full",
+        "8": "none"
+    },
+    "splits": {
+        "train": {
+            "0": {
+                "class_name": "Center",
+                "count": 3005
+            },
+            "1": {
+                "class_name": "Donut",
+                "count": 388
+            },
+            "2": {
+                "class_name": "Edge-Loc",
+                "count": 3632
+            },
+            "3": {
+                "class_name": "Edge-Ring",
+                "count": 6776
+            },
+            "4": {
+                "class_name": "Loc",
+                "count": 2515
+            },
+            "5": {
+                "class_name": "Random",
+                "count": 606
+            },
+            "6": {
+                "class_name": "Scratch",
+                "count": 835
+            },
+            "7": {
+                "class_name": "Near-full",
+                "count": 104
+            },
+            "8": {
+                "class_name": "none",
+                "count": 14000
+            }
+        },
+        "val": {
+            "0": {
+                "class_name": "Center",
+                "count": 644
+            },
+            "1": {
+                "class_name": "Donut",
+                "count": 83
+            },
+            "2": {
+                "class_name": "Edge-Loc",
+                "count": 778
+            },
+            "3": {
+                "class_name": "Edge-Ring",
+                "count": 1452
+            },
+            "4": {
+                "class_name": "Loc",
+                "count": 538
+            },
+            "5": {
+                "class_name": "Random",
+                "count": 129
+            },
+            "6": {
+                "class_name": "Scratch",
+                "count": 178
+            },
+            "7": {
+                "class_name": "Near-full",
+                "count": 22
+            },
+            "8": {
+                "class_name": "none",
+                "count": 3000
+            }
+        },
+        "test": {
+            "0": {
+                "class_name": "Center",
+                "count": 645
+            },
+            "1": {
+                "class_name": "Donut",
+                "count": 84
+            },
+            "2": {
+                "class_name": "Edge-Loc",
+                "count": 779
+            },
+            "3": {
+                "class_name": "Edge-Ring",
+                "count": 1452
+            },
+            "4": {
+                "class_name": "Loc",
+                "count": 540
+            },
+            "5": {
+                "class_name": "Random",
+                "count": 131
+            },
+            "6": {
+                "class_name": "Scratch",
+                "count": 180
+            },
+            "7": {
+                "class_name": "Near-full",
+                "count": 23
+            },
+            "8": {
+                "class_name": "none",
+                "count": 3000
+            }
+        }
+    },
+    "totals": {
+        "train": 31861,
+        "val": 6824,
+        "test": 6834
+    }
+}

@@ -1,0 +1,52 @@
+# Python cache and local tooling
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Dataset and generated data
+dataset/
+archive/*.pkl
+archive/*.zip
+archive/*.csv
+archive/*.parquet
+archive/wm811k-wafer-map/
+*.zip
+WaferMap/
+WM-811K_semiconductor_wafer_map_pattern_classified/
+
+# Model weights and training outputs
+*.pth
+*.pt
+*.ckpt
+*.onnx
+resnet/training_metrics/
+resnet/test_report.json
+resnet/confusion_matrix.json
+resnet/batch_predictions.csv
+batch_predictions.csv
+runs/
+outputs/
+checkpoints/
+grad_cam/outputs/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
