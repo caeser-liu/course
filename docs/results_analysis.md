@@ -114,7 +114,7 @@
 
 2. **MixUp / CutMix**：混合数据增强，提升模型泛化能力。
 
-3. **更长训练**：当前 best acc 出现在较早 epoch，可尝试 cosine annealing schedule 跳出局部最优。
+3. **更长训练**：当前 best val_acc 出现在 epoch 15（0.7551），之后过拟合导致 epoch 30 降至 0.6603。可引入 cosine annealing schedule 或早停（early stopping）策略。
 
 ## Grad-CAM 可解释性
 
